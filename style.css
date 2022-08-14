@@ -1,0 +1,149 @@
+ .navbar {
+     background-color: rgb(73, 73, 73);
+     color: #fff;
+     height: 50px;
+ }
+
+ ul {
+     list-style: none;
+ }
+
+ li {
+     display: block;
+     float: left;
+     padding: 10px;
+     font-weight: 400;
+     text-transform: capitalize;
+ }
+
+ a {
+     color: #fff;
+     text-decoration: none;
+ }
+
+ .logo {
+     padding: 0 0 20px 0;
+     width: 200px;
+ }
+
+ .content {
+     color: #fff;
+     text-align: center;
+     background-image: url(img/download.jpg);
+     background-repeat: no-repeat;
+     height: 400px;
+
+ }
+
+ .dropdown {
+     visibility: hidden;
+     opacity: 0;
+     min-width: 5rem;
+     position: absolute;
+     transition: all 0.5s ease;
+     margin-top: 1rem;
+     left: 34%;
+     display: none;
+ }
+
+ ul li:hover>ul,
+ ul li ul:hover {
+     visibility: visible;
+     opacity: 1;
+     display: block !important;
+     transition: all 0.5s ease;
+ }
+
+ .dropdown ul {
+     display: block;
+ }
+
+ ul li ul li {
+     clear: both;
+     width: 100%;
+ }
+
+ .drp {
+     visibility: hidden;
+     opacity: 0;
+     min-width: 5rem;
+     position: absolute;
+     transition: all 0.5s ease;
+     margin-top: 1rem;
+     left: 65%;
+     display: none;
+ }
+
+ .drp input {
+     height: 40px;
+     border-radius: 10px;
+ }
+
+ .search:hover .drp {
+     visibility: visible;
+     opacity: 1;
+     display: block !important;
+     transition: all 0.5s;
+ }
+
+ h1 {
+     font-size: 5em;
+     font-weight: lighter;
+ }
+
+ .text {
+     padding-top: 8%;
+     font-family: Helvetica, sans-serif;
+ }
+
+ #box-area .info {
+     height: 250px;
+     margin: 5%;
+     border: 2px groove threedface;
+     text-align: center;
+     padding: 5%;
+ }
+
+ #box-area .info h2 {
+     float: center;
+     margin-top: -7%;
+     background: #fff;
+     font-size: 1em;
+     font-family: "Times New Roman", Times, serif;
+     font-weight: bold;
+ }
+
+ .net {
+     color: green;
+ }
+
+ .native {
+     color: #1f70c6;
+ }
+
+ .html {
+     color: orangered;
+ }
+
+ .cms {
+     color: #575352;
+ }
+
+ #box-area .info .title {
+     font-size: 2em;
+     font-weight: 700;
+ }
+
+ #box-area .info sup {
+     font-size: 0.7em;
+ }
+
+ #box-area .info .btn {
+     border-radius: 0 !important;
+     width: 150px !important;
+ }
+
+ #box-area .info .button {
+     background-color: rgb(4, 4, 47);
+     color: #fff;
+ }
